@@ -1,0 +1,28 @@
+{
+  "name": "learn-unit-testing",
+  "version": "1.0.0",
+  "description": "to learn testing, specific to unit testing",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nascript/learn-unit-testing.git"
+  },
+  "keywords": [
+    "unit-testing-nascript"
+  ],
+  "author": "nascript",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nascript/learn-unit-testing/issues"
+  },
+  "homepage": "https://github.com/nascript/learn-unit-testing#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.6",
+    "babel-jest": "^28.1.2",
+    "jest": "^28.1.2"
+  }
+}
