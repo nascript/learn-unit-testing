@@ -15,3 +15,12 @@ test('test equal', () => {
 
   expect(profile).toEqual({ name: 'Tion', age: 36 })
 })
+
+
+// negative testing
+test('test toBe', () => {
+  const name = 'Nas'
+  const hello = `Hello ${name}`
+
+  expect(hello).toBe('Hello You')
+})
