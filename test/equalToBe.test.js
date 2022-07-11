@@ -22,5 +22,5 @@ test('test toBe', () => {
   const name = 'Nas'
   const hello = `Hello ${name}`
 
-  expect(hello).toBe('Hello You')
+  expect(hello).toBe('Hello Nas')
 })
